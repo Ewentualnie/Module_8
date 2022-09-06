@@ -1,3 +1,5 @@
+import graphic.*;
+
 public class Module_8 {
     public static void main(String[] args) {
         Circle circle = new Circle("circle");
@@ -12,13 +14,3 @@ public class Module_8 {
         new Printer().callName(oval);
     }
 }
-
-class Printer {
-    public void callName(Shape shape) {
-        System.out.println("This class is ["
-                + shape.getClass().getName()
-                + "] and is called ["
-                + shape.getName() + "]");
-    }
-}
-

@@ -1,4 +1,6 @@
-class Quad extends Shape {
+package graphic;
+
+public class Quad extends Shape {
     public Quad(String name) {
         super(name);
     }

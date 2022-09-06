@@ -1,3 +1,5 @@
+package graphic;
+
 abstract class Shape {
     private final String name;
 
